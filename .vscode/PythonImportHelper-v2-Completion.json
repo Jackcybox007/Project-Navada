@@ -1,0 +1,82 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "time,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time.",
+        "description": "time.",
+        "detail": "time.",
+        "documentation": {}
+    },
+    {
+        "label": "vehical",
+        "importPath": "lib.vehical",
+        "description": "lib.vehical",
+        "isExtraImport": true,
+        "detail": "lib.vehical",
+        "documentation": {}
+    },
+    {
+        "label": "Vector2",
+        "kind": 6,
+        "importPath": "lib.Vector",
+        "description": "lib.Vector",
+        "peekOfCode": "class Vector2:\n    def __init__(self,x,y):\n        self.x = x\n        self.y = y\n    def __add__(self,other):\n        return Vector2(self.x + other.x, self.y + other.y)\n    def __sub__(self,other):\n        return Vector2(self.x - other.x, self.y - other.y)\n    def __mul__(self,other):\n        if not isinstance(other,Vector2):",
+        "detail": "lib.Vector",
+        "documentation": {}
+    },
+    {
+        "label": "Vector2",
+        "kind": 6,
+        "importPath": "lib.vehical",
+        "description": "lib.vehical",
+        "peekOfCode": "class Vector2:\n    def __init__(self,x,y):\n        self.x = x\n        self.y = y\n    def __add__(self,other):\n        return Vector2(self.x + other.x, self.y + other.y)\n    def __sub__(self,other):\n        return Vector2(self.x - other.x, self.y - other.y)\n    def __mul__(self,other):\n        if not isinstance(other,Vector2):",
+        "detail": "lib.vehical",
+        "documentation": {}
+    },
+    {
+        "label": "vehical",
+        "kind": 6,
+        "importPath": "lib.vehical",
+        "description": "lib.vehical",
+        "peekOfCode": "class vehical:\n    def __init__(self, mass=2000):\n        self.mass = mass\n        self.x = 1\n        self.y = 1\n        self.vx = 1\n        self.vy = 1\n        self.ax = 0\n        self.ay = 0\n        self.fx = 0",
+        "detail": "lib.vehical",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class main:\n    def __init__(self):\n        pygame.init()\n        self.Display = pygame.display.set_mode((1360, 700))\n        self.clock = pygame.time.Clock()\n        self.t0 = time.time()\n        self.t1 = time.time()\n        self.input = [0,0,1]\n        self.run()\n    def update(self):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "car = vehical(2000)\nclass main:\n    def __init__(self):\n        pygame.init()\n        self.Display = pygame.display.set_mode((1360, 700))\n        self.clock = pygame.time.Clock()\n        self.t0 = time.time()\n        self.t1 = time.time()\n        self.input = [0,0,1]\n        self.run()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
